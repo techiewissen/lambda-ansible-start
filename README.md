@@ -1,2 +1,2 @@
 Start the lambda function using ansible job
-ansible-playbook -i host lambda_start.yml -e lambdaname
+ansible-playbook -i host lambda_start.yml -e "name=lambdaname"
