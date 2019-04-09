@@ -1,2 +1,1 @@
-# lambda-ansible-start
-# lambda-ansible-start
+Start the lambda function using ansible job
