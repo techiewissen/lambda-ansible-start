@@ -4,6 +4,6 @@ localhost ansible_connection=local ansible_host=127.0.0.1 ansible_python_interpr
 
 [local:vars]
 region=us-east-1
-key_id=AKIAIWZHPU64XO6DNGCQ
-access_key=b2e92vNPLplCWL5+G72wdZgUk2InT8lrIj3IuaS+
+key_id=AKIAIWZHPU64XO
+access_key=b2e92vNPLplCWL5+G72wdZgUk
 
