@@ -1,0 +1,11 @@
+---
+- name: execute lamda based on the given function name
+  execute_lambda:
+    name: "{{ name }}"
+    payload:
+      foo: bar
+      value: 8
+    wait: true
+    tail_log: true
+  register: response
+  # the response will have a `logs` key that will contain a log (up to 4KB) of the function execution in Lambda.

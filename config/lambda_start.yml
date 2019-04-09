@@ -1,0 +1,9 @@
+---
+- name: apply the common configuration to all hosts
+  hosts: all
+
+  roles:
+  - common
+  - lambda
+  
+

@@ -1,0 +1,9 @@
+[local]
+#localhost ansible_connection=local
+localhost ansible_connection=local ansible_host=127.0.0.1 ansible_python_interpreter="{{ ansible_playbook_python }}"
+
+[local:vars]
+region=us-east-1
+key_id=AKIAIWZHPU64XO6DNGCQ
+access_key=b2e92vNPLplCWL5+G72wdZgUk2InT8lrIj3IuaS+
+
